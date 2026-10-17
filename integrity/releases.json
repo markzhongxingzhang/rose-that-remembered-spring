@@ -4,8 +4,8 @@
       "version": "0.1.0",
       "tag": "v0.1.0",
       "prepared": "2026-10-17",
-      "released": null,
-      "commit": null,
+      "released": "2026-10-17",
+      "commit": "e44cdc6379d912ed95f4a9cc66735683b287d3ea",
       "manifest": "integrity/v0.1.0/SHA256SUMS",
       "manifest_sha256": "939a774a3642a10db419d116906f0a5df8fc7047f1a81afa70c2c1125d53d5f6",
       "files": 29,
@@ -20,8 +20,8 @@
         "LICENSE.md": "1114df4bacb99079b85bbebbf07b5ae8bae04e063c91dedfe8f6e3ae06ba32cb",
         "integrity/README.md": "8c093562c83a411dcf0bcf1ee9ac623da08fa2f94bfe4aae295aca6f8ac501f6"
       },
-      "signature": "none created",
-      "timestamp": "none obtained"
+      "signature": "commit and tag signed (GPG ed25519 key 8F998A1B8F17E7B4); shown as Verified by GitHub",
+      "timestamp": "RFC 3161 (https://freetsa.org/tsr), time Oct 17 21:27:39 2026 GMT, proof integrity/v0.1.0/timestamp/SHA256SUMS.tsr, verified 2026-10-17"
     }
   ]
 }

@@ -4,18 +4,18 @@ Each public version of this record, as it was actually released. How the manifes
 
 | version | prepared | released | commit | manifest digest (SHA-256) | signature | third-party timestamp |
 |---|---|---|---|---|---|---|
-| 0.1.0 | 2026-10-17 | not yet released | not yet recorded | `939a774a3642a10d…` | none created | none obtained |
+| 0.1.0 | 2026-10-17 | 2026-10-17 | `e44cdc6379d9…` | `939a774a3642a10d…` | commit and tag signed (GPG ed25519 key 8F998A1B8F17E7B4); shown as Verified by GitHub | RFC 3161 (https://freetsa.org/tsr), time Oct 17 21:27:39 2026 GMT, proof integrity/v0.1.0/timestamp/SHA256SUMS.tsr, verified 2026-10-17 |
 
 ## Version 0.1.0
 
 - **Tag:** `v0.1.0`
 - **Content prepared:** 2026-10-17
-- **Released:** not yet released
-- **Commit:** not yet recorded
+- **Released:** 2026-10-17
+- **Commit:** `e44cdc6379d912ed95f4a9cc66735683b287d3ea`
 - **Manifest:** `integrity/v0.1.0/SHA256SUMS`, 29 files
 - **Manifest digest (SHA-256):** `939a774a3642a10db419d116906f0a5df8fc7047f1a81afa70c2c1125d53d5f6`
-- **Signature:** none created
-- **Third-party timestamp:** none obtained
+- **Signature:** commit and tag signed (GPG ed25519 key 8F998A1B8F17E7B4); shown as Verified by GitHub
+- **Third-party timestamp:** RFC 3161 (https://freetsa.org/tsr), time Oct 17 21:27:39 2026 GMT, proof integrity/v0.1.0/timestamp/SHA256SUMS.tsr, verified 2026-10-17
 
 | document | SHA-256 |
 |---|---|
