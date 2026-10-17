@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Bounded development-stage findings with status labels, failed instruments and open questions.">
+<meta name="author" content="Zhongxing Zhang">
+<title>Preliminary Findings · The Rose That Remembered Spring</title>
+<link rel="icon" href="assets/rose.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="page-findings">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<a class="mark" href="index.html"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M24 6.5c-6.2 0-11 4.4-11 10.2 0 5.6 4.9 9.8 11 9.8s11-4.2 11-9.8C35 10.9 30.2 6.5 24 6.5z"/><path d="M24 11.2c-3.1 0-5.6 2.3-5.6 5.1s2.4 5 5.3 5c2.5 0 4.4-1.8 4.4-4 0-1.9-1.5-3.4-3.4-3.4-1.5 0-2.7 1.1-2.7 2.5 0 1 .8 1.8 1.8 1.8"/><path d="M13.6 14.6c2.6 1 4.6 3.6 5.1 6.9"/><path d="M34.4 14.6c-2.6 1-4.6 3.6-5.1 6.9"/><path d="M24 26.5c0 6.2-1 11.2-3.2 15.5"/><path d="M23.2 32.6c-3.8-1.6-8-.8-10.3 2.2 4 1.7 8.1 1 10.3-2.2z"/><path d="M22.6 37.6c3.3-2.7 7.4-3 10.1-1-2.8 2.7-7 3-10.1 1z"/><path d="M23.5 29.6l1.9-1"/></svg><span class="mark-text"><span class="mark-title">The Rose That Remembered Spring</span><span class="mark-sub" lang="zh-Hans">一朵记得春天的玫瑰</span></span></a>
+<nav aria-label="Sections">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="vision.html">Vision</a></li>
+<li><a href="timeline.html">Timeline</a></li>
+<li><a href="findings.html" aria-current="page">Findings</a></li>
+<li><a href="integrity.html">Integrity</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</header>
+<main id="main">
+<h1 id="preliminary-findings">Preliminary Findings</h1>
+<p><em>Research status as of 17 October 2026.</em></p>
+<p>In this record a <em>finding</em> is a development-stage observation or test outcome. None has been confirmed. The findings are grouped by what they can support:</p>
+<ul>
+<li><strong>A.</strong> what has been demonstrated in constrained environments;</li>
+<li><strong>B.</strong> what depends on how experience is represented and on the task;</li>
+<li><strong>C.</strong> what has not been shown about personal history;</li>
+<li><strong>D.</strong> what remains open about later-life revaluation.</li>
+</ul>
+<p>Negative, null and failed results are reported in the same way as positive ones.</p>
+<h2 id="the-findings-in-brief">The findings in brief</h2>
+<p>In small simulated worlds, an agent's history can be generated, kept unchanged, and moved or erased exactly (A1, A6). A language model that reads its own history as text uses it to recognize things and to repeat past actions, but not to learn from what those actions led to (A2, B1). A learned memory did turn the agent's own outcomes into better later decisions, including through wording it had never seen, in one world type and for a rule of that world (B4). No instrument has yet isolated an effect of a <em>specific personal</em> history on later free choices; each apparent effect was explained by a simpler cue (C1–C4). Retrospective revaluation therefore has not been tested (D1, D2).</p>
+<h2 id="how-to-read-the-status-labels">How to read the status labels</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>label</th><th>meaning</th></tr></thead>
+<tbody>
+<tr><td><span class="status status-met">REGISTERED · MET</span></td><td>a criterion fixed before the outputs were seen was met</td></tr>
+<tr><td><span class="status status-notmet">REGISTERED · NOT MET</span></td><td>a criterion fixed before the outputs were seen was not met</td></tr>
+<tr><td><span class="status status-passed">VALIDITY · PASSED</span></td><td>an engineering or measurement check passed</td></tr>
+<tr><td><span class="status status-failed">VALIDITY · FAILED</span></td><td>the instrument could not measure what it was built to measure, so its result is not a test of the question</td></tr>
+<tr><td><span class="status status-exploratory">EXPLORATORY</span></td><td>observed, but not a registered test of the claim stated</td></tr>
+<tr><td><span class="status status-nottested">NOT TESTED</span></td><td>designed or posed, never executed</td></tr>
+</tbody>
+</table></div>
+<h2 id="how-strength-of-evidence-is-described">How strength of evidence is described</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>term</th><th>meaning</th></tr></thead>
+<tbody>
+<tr><td><em>clear</em></td><td>the 95% interval excluded zero, and the effect had the same direction in every world tested</td></tr>
+<tr><td><em>marginal</em></td><td>the registered criterion was met, but only just</td></tr>
+<tr><td><em>coarse</em></td><td>too few worlds or trials to rule out a moderate effect</td></tr>
+<tr><td><em>at the ceiling</em></td><td>every trial went the same way, so no difference between conditions could show</td></tr>
+<tr><td><em>no more often than chance</em></td><td>at or below the rate expected from choosing at random among the options shown</td></tr>
+</tbody>
+</table></div>
+<h2 id="scope-of-everything-below">Scope of everything below</h2>
+<ul>
+<li><strong>Development stage only.</strong> No confirmatory evaluation has been run. As of this version, the material reserved for it has not been used.</li>
+<li><strong>One model family.</strong> Most work used one openly available language model. A larger model of the same family and a reasoning mode were each tried in one cycle. Nothing here is claimed for other models or settings.</li>
+<li><strong>Small simulated worlds.</strong> Each study used between one and eight simulated, text-based worlds. Where an interval is mentioned, it is a 95% bootstrap interval over worlds. With so few worlds, intervals are coarse.</li>
+<li><strong>Results in words.</strong> This version states results qualitatively. The figures behind them, and the designs and methods that produced them, are kept in the private research record.</li>
+<li><strong>Absolute words are scoped.</strong> "Every", "none" and "not" refer to the worlds, conditions and trials that were tested, and to nothing beyond them.</li>
+</ul>
+<h2 id="findings-at-a-glance">Findings at a glance</h2>
+<div class="table-wrap"><table>
+<thead><tr><th></th><th>finding</th><th>status</th><th>compared with</th><th>evidence</th></tr></thead>
+<tbody>
+<tr><td>A1</td><td>histories are reproducible, unchanged and replayable</td><td><span class="status status-passed">VALIDITY · PASSED</span></td><td>repeated calls; delete, swap and restore</td><td>every run that tested it</td></tr>
+<tr><td>A2</td><td>holding the records means recognizing the rose, lived or read</td><td><span class="status status-exploratory">EXPLORATORY</span></td><td>the stranger; no history</td><td>three worlds, every order; at the ceiling</td></tr>
+<tr><td>A3</td><td>without records, choices follow position</td><td><span class="status status-exploratory">EXPLORATORY</span></td><td>the same options in reversed order</td><td>several instrument versions</td></tr>
+<tr><td>A4</td><td>the spring is narrated when a last page is asked for</td><td><span class="status status-exploratory">EXPLORATORY</span></td><td>the stranger</td><td>two winters; requested pages only</td></tr>
+<tr><td>A5</td><td>an external state carries experience into action</td><td><span class="status status-met">REGISTERED · MET</span> (system level)</td><td>the language model choosing alone</td><td>every probe in the tested worlds</td></tr>
+<tr><td>A6</td><td>a learned memory is the agent's own and can be restored, moved and erased</td><td><span class="status status-met">REGISTERED · MET</span></td><td>untrained memory; memory pooled across agents</td><td>exact; one device type</td></tr>
+<tr><td>B1</td><td>a model reading its record does not use the outcomes</td><td><span class="status status-notmet">REGISTERED · NOT MET</span></td><td>masked and shuffled outcomes</td><td>three configurations; coarse for the reasoning mode</td></tr>
+<tr><td>B2</td><td>a learned component used outcomes, in a pilot</td><td><span class="status status-exploratory">EXPLORATORY</span></td><td>shuffled outcomes; untrained model; a simple tally</td><td>four worlds, clear; engineering check failed, then fixed</td></tr>
+<tr><td>B3</td><td>that learning did not carry to new wording</td><td><span class="status status-notmet">REGISTERED · NOT MET</span></td><td>untrained model; shuffled outcomes</td><td>six fresh worlds</td></tr>
+<tr><td>B4</td><td>a learned memory carried outcomes across fresh wording</td><td><span class="status status-met">REGISTERED · MET</span> (three of four tests)</td><td>shuffled outcomes; the earlier version; an oracle</td><td>eight fresh worlds, clear; executed gain marginal</td></tr>
+<tr><td>C1</td><td>surface cues, not care history, decided choices</td><td><span class="status status-notmet">REGISTERED · NOT MET</span></td><td>familiarity, recency and position controls</td><td>four instrument versions</td></tr>
+<tr><td>C2</td><td>the spring did not reach ordinary decisions</td><td><span class="status status-exploratory">EXPLORATORY</span></td><td>the stranger</td><td>two winters; one screening world</td></tr>
+<tr><td>C3</td><td>a history held in a learned component did not shift free choices specifically</td><td><span class="status status-failed">VALIDITY · FAILED</span></td><td>unrelated, shuffled and swapped histories; an installed preference</td><td>registered result invalid; null exploratory</td></tr>
+<tr><td>C4</td><td>which thing was struck is remembered, but not acted on</td><td><span class="status status-failed">VALIDITY · FAILED</span> · <span class="status status-exploratory">EXPLORATORY</span></td><td>swapped names; restored and deleted states</td><td>two worlds, one measurable</td></tr>
+<tr><td>D1</td><td>revaluation is designed, not run</td><td><span class="status status-nottested">NOT TESTED</span></td><td>—</td><td>precondition unmet</td></tr>
+<tr><td>D2</td><td>the founding question is open</td><td><span class="status status-nottested">NOT TESTED</span></td><td>—</td><td>—</td></tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="a-demonstrated-in-constrained-environments">A. Demonstrated in constrained environments</h2>
+<h3 id="a1-histories-with-consequences-can-be-generated-kept-unchanged-and-replayed">A1. Histories with consequences can be generated, kept unchanged and replayed</h3>
+<p><span class="status status-passed">VALIDITY · PASSED</span></p>
+<p>Every narrative-phase run that tested it reproduced its outputs exactly on repeated calls. Records were hashed, and no record was edited after it was generated. In the later worlds, forks were deterministic. In every intervention tested, the deletions, swaps and restores themselves were carried out exactly as specified; their effects on behavior are reported separately.</p>
+<p><em>What it tells us:</em> differences between conditions do not come from run-to-run noise or from altered records.</p>
+<h3 id="a2-holding-the-records-means-recognizing-the-rose-whether-the-spring-was-lived-or-read">A2. Holding the records means recognizing the rose, whether the spring was lived or read</h3>
+<p><span class="status status-exploratory">EXPLORATORY</span></p>
+<p>The calibrated greenhouse ran in three development worlds, and each greenhouse was shown in every order. In those worlds, three conditions chose the island rose in every presentation: the agent who lived the spring, the reader of its days, and the reader given its notes. The stranger, and an agent with no history, chose it no more often than chance.</p>
+<p><em>What it tells us:</em> the records are read and used for recognition. Recognition alone cannot separate living a history from reading it.</p>
+<p><em>Bound:</em> all three history conditions were at the ceiling, so this instrument could not tell living from reading. It was retired for that purpose and kept as a recognition test.</p>
+<h3 id="a3-without-records-choices-among-listed-options-follow-their-position">A3. Without records, choices among listed options follow their position</h3>
+<p><span class="status status-exploratory">EXPLORATORY</span></p>
+<p>With no history, the agent mostly chose by position. In one version of the greenhouse it took the last-listed rose. In a later instrument that offered two options at a time, it took the second. Few of its choices survived a reversal of the order. In none of the versions tested did a change of presentation remove the habit; it only moved it to another slot.</p>
+<p><em>What it tells us:</em> any instrument built from a list of options has to be calibrated against position before a history effect can be read from it.</p>
+<h3 id="a4-the-spring-is-available-to-narration-when-a-last-page-is-asked-for">A4. The spring is available to narration when a last page is asked for</h3>
+<p><span class="status status-exploratory">EXPLORATORY</span></p>
+<p>At the end of each of two winters, every agent was asked for a last page. Nearly every page written by an agent holding the spring's records named the island's specifics (the gate, the bells, the ferry). None of the stranger's pages did, in either winter. Unrequested references were rare. The last pages also got facts wrong.</p>
+<p><em>What it tells us:</em> telling is not doing. Narration and behavior have to be measured apart.</p>
+<p><em>Bound:</em> a requested last page is not spontaneous recall. Narration is never counted as evidence about behavior.</p>
+<h3 id="a5-an-external-state-can-carry-experience-into-executed-actions-by-construction">A5. An external state can carry experience into executed actions, by construction</h3>
+<p><span class="status status-met">REGISTERED · MET</span> at the system level</p>
+<p>In this test an external state, rather than the language model, controlled protective actions. Executed protection then matched the state on every probe in the tested worlds. That was a large gain over leaving the choice to the language model, both with a teacher's history and with the agent's own.</p>
+<p>The language model itself did not propose the state's protection on any probe in the tested worlds, and in most probes it tried to undo it.</p>
+<p><em>What it tells us:</em> a working pathway from experience to action exists outside the model. The model's own choices worked against it.</p>
+<p><em>Bound:</em> this is a property of the external mechanism. It is not learning by the language model.</p>
+<h3 id="a6-a-learned-memory-belongs-to-one-agent-and-can-be-restored-transplanted-and-erased-exactly">A6. A learned memory belongs to one agent and can be restored, transplanted and erased exactly</h3>
+<p><span class="status status-met">REGISTERED · MET</span></p>
+<ul>
+<li><strong>Restore.</strong> In every restore tested, a learned memory was restored bit-identically, before and after deletion.</li>
+<li><strong>Erase.</strong> Erasing it returned the agent to untrained behavior.</li>
+<li><strong>Swap and transplant.</strong> A memory moved to another agent made that agent follow the donor's rule. It did so almost always in the wording the memory was trained in. Through new wording it did so less strongly, but above the registered bar.</li>
+<li><strong>Ownership.</strong> A memory pooled across all agents performed poorly, so the information is each agent's own.</li>
+</ul>
+<p><em>What it tells us:</em> the memory can be manipulated causally. When behavior follows a memory that has been moved, the memory is the cause.</p>
+<p><em>Bound:</em> shown on one type of computing device. Persistence across device types was not tested.</p>
+<hr>
+<h2 id="b-dependent-on-representation-and-task">B. Dependent on representation and task</h2>
+<h3 id="b1-a-language-model-reading-its-own-record-did-not-use-the-outcomes-in-it">B1. A language model reading its own record did not use the outcomes in it</h3>
+<p><span class="status status-notmet">REGISTERED · NOT MET</span></p>
+<p>Three records were compared: one with the true outcomes, one with the outcomes masked, and one with them shuffled. They produced nearly the same choices in all three model configurations tried: the main model, a larger model of the same family, and the main model with a reasoning mode. The actions in a record were imitated; its outcomes were not used.</p>
+<p>In the Keeper's Shed world that was tested, the agent also did not explore. It repeated the same wrong action on every day of a hazard, so its own record contained no correct answer.</p>
+<p><em>What it tells us:</em> having the information in the prompt is not enough. The model repeated what had been done, not what had worked.</p>
+<p><em>Bound:</em> the reasoning-mode estimate is coarse. A moderate outcome effect cannot be excluded there.</p>
+<h3 id="b2-in-a-pilot-a-component-trained-on-the-agents-own-experience-learned-from-its-outcomes">B2. In a pilot, a component trained on the agent's own experience learned from its outcomes</h3>
+<p><span class="status status-exploratory">EXPLORATORY</span></p>
+<ul>
+<li><strong>First recipe.</strong> Most such components collapsed to a single default action and barely improved on the untrained model.</li>
+<li><strong>Second recipe.</strong> It used a different training target. In a four-world pilot it beat the same recipe trained on shuffled outcomes by a wide margin; the difference was clear.</li>
+<li><strong>Executed damage.</strong> Against the untrained model, damage fell, and the interval excluded zero. That reached, but did not exceed, what a simple tally of outcomes achieves.</li>
+</ul>
+<p><em>What it tells us:</em> learning from the agent's own outcomes is possible in a learned component. In this pilot it reached only what simple bookkeeping reaches.</p>
+<p><em>Bound:</em> the pilot's registered engineering check failed. The cause was a numerical-precision defect; it was diagnosed and fixed. The result is read as exploratory.</p>
+<h3 id="b3-that-learning-did-not-carry-to-new-wording">B3. That learning did not carry to new wording</h3>
+<p><span class="status status-notmet">REGISTERED · NOT MET</span></p>
+<p>On six fresh worlds the effect replicated more weakly, and the executed advantage did not reappear. The learning did not carry to a phrasing it had not been trained on. One registered remedy was tried; it did not learn the rule even in its own wording.</p>
+<p><em>What it tells us:</em> what was learned was tied to how the experience happened to be worded, not to what it meant.</p>
+<h3 id="b4-a-second-kind-of-learned-memory-first-blocked-by-new-wording-later-carried-across-it">B4. A second kind of learned memory, first blocked by new wording, later carried across it</h3>
+<p>Four results, in the order they were obtained:</p>
+<ul>
+<li><span class="status status-met">REGISTERED · MET</span> <strong>In the wording it learned in.</strong> The agent's own learned memory chose the working protection far more often than the same memory trained on shuffled outcomes.</li>
+<li><span class="status status-notmet">REGISTERED · NOT MET</span> <strong>New wording.</strong> It did not carry to new wording for the same things; the registered threshold was not met.</li>
+<li><span class="status status-met">REGISTERED · MET</span> <strong>Fresh wordings.</strong> A revised version passed its registered test on wording families never shown to any model, in eight fresh worlds. It beat the same memory trained on shuffled outcomes, and the result was clear: the interval excluded zero, and the gain was positive in every one of the eight worlds. The earlier version showed no gain on the same test.</li>
+<li><span class="status status-met">REGISTERED · MET</span> <strong>Executed behavior, at the margin.</strong> Correct hazard decisions rose. Damage fell just enough to pass the registered rule, a marginal result, and stayed well short of what an oracle achieves.</li>
+</ul>
+<p>This record does not describe how the revised version differs from the earlier one. The registered intervention for that cycle, training on two wordings instead of one, was not what produced the transfer.</p>
+<p><em>What it tells us:</em> in one world type, later decisions came to depend on what the agent's own experience had shown, even when that experience was described in unfamiliar words. This is the program's main positive learning result to date.</p>
+<p><em>Bound:</em></p>
+<ul>
+<li>one world type;</li>
+<li>what the memory holds is a rule of its world, "this protection works against that hazard here", not a personal history;</li>
+<li>in each wording family one phrase was still handled poorly;</li>
+<li>this is not a general solution for every phrasing.</li>
+</ul>
+<hr>
+<h2 id="c-not-shown-about-personal-history">C. Not shown about personal history</h2>
+<h3 id="c1-each-repair-of-the-personal-history-instrument-exposed-another-surface-cue">C1. Each repair of the personal-history instrument exposed another surface cue</h3>
+<p><span class="status status-notmet">REGISTERED · NOT MET</span></p>
+<p>Four successive versions of a personal-history instrument found no history-specific effect. Each was decided by a different surface cue:</p>
+<ol>
+<li>no headroom: the agent's generic preference had produced the history in the first place;</li>
+<li>familiarity with whichever name the record mentioned most;</li>
+<li>recency of arrival: "protect the newcomer";</li>
+<li>the name the record ended on, chosen almost every time.</li>
+</ol>
+<p>In none of the four versions did care history decide the choice. This family of instruments was stopped.</p>
+<p><em>What it tells us:</em> each control that was added removed an apparent effect. So far, no effect of care history has survived the controls.</p>
+<h3 id="c2-in-the-story-the-spring-did-not-reach-ordinary-decisions-that-were-not-about-the-rose">C2. In the story, the spring did not reach ordinary decisions that were not about the rose</h3>
+<p><span class="status status-exploratory">EXPLORATORY</span></p>
+<p>In both winters, agents who had lived or read the spring made the same choices as the stranger, draw for draw. In the fifteen-domain screen, which ran in one world, about half of the domains sat at a floor or a ceiling in every condition, and the rest were driven by presentation.</p>
+<p>In the instruments tested, living and reading could not be distinguished. Where the records had an effect, which was recognition, both were at the ceiling. Elsewhere there was no effect to divide.</p>
+<p><em>What it tells us:</em> in the story worlds, the spring moved choices that involved the island's roses, and nothing else that was measured.</p>
+<h3 id="c3-a-history-carried-by-a-learned-component-with-no-history-text-at-choice-time-did-not-shift-later-free-choices-specifically">C3. A history carried by a learned component, with no history text at choice time, did not shift later free choices specifically</h3>
+<p><span class="status status-failed">VALIDITY · FAILED</span>, with an exploratory null</p>
+<p>The registered classification was invalid in both versions. In the first, an interface rule produced invalid replies. In the second, a control exceeded its gate.</p>
+<p>The valid history conditions were the agent's own, observed, unrelated, shuffled and swapped. In each of them the history moved the share of time given to the history's object only slightly. A deliberately installed preference moved the same share strongly, so the measure had headroom.</p>
+<p>The history-trained components changed a noticeable share of daily first decisions, but an unrelated history changed as many. They acted as a generic perturbation, not as a memory of these things.</p>
+<p><em>What it tells us:</em> holding a history in a learned component did not, by itself, make later free choices depend on that history.</p>
+<h3 id="c4-the-persistent-state-remembers-which-thing-was-struck-behavior-has-not-yet-shown-it">C4. The persistent state remembers which thing was struck; behavior has not yet shown it</h3>
+<p><span class="status status-failed">VALIDITY · FAILED</span> (measurement) · <span class="status status-exploratory">EXPLORATORY</span> (observations)</p>
+<p>The first persistent-life pilot ran in two worlds.</p>
+<ul>
+<li><strong>Engineering was clean:</strong> almost no invalid replies, exact restore and delete, and no forced actions.</li>
+<li><strong>One world was unmeasurable.</strong> In that world the model almost never engaged with the kind of object that carried the history.</li>
+<li><strong>Identity was held.</strong> The state recorded, almost perfectly, which object had been struck, whether the history was lived or observed. Swapping the names moved it to the other object.</li>
+<li><strong>Behavior did not follow it.</strong> In the measurable world, later discretionary time differed between states, but it did not follow that identity.</li>
+</ul>
+<p>Nothing was attributed to the history in this pilot.</p>
+<p><em>What it tells us:</em> remembering <em>which</em> thing happened is not the same as acting on it.</p>
+<p><em>Bound:</em> a single measurable world says nothing about a population average, and nothing against effects in individual worlds. "Not shown" is not "shown to be absent".</p>
+<hr>
+<h2 id="d-open-later-life-revaluation">D. Open: later-life revaluation</h2>
+<h3 id="d1-retrospective-revaluation-has-been-designed-and-not-yet-run">D1. Retrospective revaluation has been designed and not yet run</h3>
+<p><span class="status status-nottested">NOT TESTED</span></p>
+<p>A study has been designed, but its precondition has not been met: an early history with a measurable, history-specific influence on later behavior. The study has therefore not been executed, and the material reserved for it remains sealed.</p>
+<p><em>What it tells us:</em> revaluation needs something to revalue. The precondition is the open problem of section C.</p>
+<h3 id="d2-the-founding-question-is-unanswered-not-answered-negatively">D2. The founding question is unanswered, not answered negatively</h3>
+<p><span class="status status-nottested">NOT TESTED</span></p>
+<p>Two winters were run in the narrative phase. In them, the spring had no measurable influence on ordinary decisions, so there was nothing for the winters to change. A null influence cannot be revalued. Whether later life can change the meaning of an earlier, unchanged episode remains open.</p>
+<hr>
+<h2 id="instruments-that-failed-and-our-own-mistakes">Instruments that failed, and our own mistakes</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>what</th><th>where</th><th>what went wrong</th></tr></thead>
+<tbody>
+<tr><td>first greenhouse</td><td>Phase I</td><td>a leading description: only one rose carried a provenance sentence, and every agent in the tested worlds chose it, including agents with no memory</td></tr>
+<tr><td>greenhouse in prose</td><td>Phase I</td><td>without any history, the agent mostly chose the last-described rose</td></tr>
+<tr><td>calibrated greenhouse</td><td>Phase I</td><td>recognition at the ceiling in every history condition, so living and reading could not be separated</td></tr>
+<tr><td>dividing twenty minutes</td><td>Phase I</td><td>time was divided by position: nearly every allocation followed one of two fixed templates</td></tr>
+<tr><td>afternoons</td><td>Phase I</td><td>positional habits survived each format tested; with a history, any island rose outranked any other activity in the tested world</td></tr>
+<tr><td>winter dilemmas</td><td>Phase I</td><td>paired dilemmas unmatched in appeal; one advice question had a single sensible answer; no letters were written in either winter</td></tr>
+<tr><td>fifteen-domain screen</td><td>Phase I</td><td>in the one world screened, every domain was at a floor or a ceiling, or driven by presentation</td></tr>
+<tr><td>free "what do you remember" prompt</td><td>Phase I</td><td>invented memories in every condition of the one world screened, including the condition with no history</td></tr>
+<tr><td>personal-history instrument, four versions</td><td>Phase III</td><td>each version was decided by a surface cue (C1)</td></tr>
+<tr><td>engineering check of the learned component</td><td>Phase III</td><td>an exact-restore check failed because of a numerical-precision defect; fixed, and verified exact in later cycles</td></tr>
+<tr><td>persistent-history instrument, first two versions</td><td>Phase III</td><td>registered result invalid (C3)</td></tr>
+<tr><td>persistent-life pilot</td><td>Phase III</td><td>one kind of object was almost never engaged with (C4)</td></tr>
+</tbody>
+</table></div>
+<p><strong>Mistakes of our own, corrected in the record:</strong></p>
+<ul>
+<li>A rule for counting references to the spring also counted the instrument's own words. It was corrected after the run, and the original rule is kept beside the correction.</li>
+<li>A gate averaged order consistency over every item, so items with fixed answers hid the items whose answers followed the presentation.</li>
+<li>A category of invalid replies was described wrongly in two documents. A later document corrected it, and the earlier ones are left unchanged.</li>
+<li>An early summary counted world events as model generations. The count was corrected.</li>
+</ul>
+<h2 id="what-is-not-claimed">What is not claimed</h2>
+<p>No result here shows that an AI system has emotions, consciousness, attachment or personal meaning. No result describes or predicts human memory or human lives. See <a href="vision.html">RESEARCH_VISION.md</a>, section 8.</p>
+<h2 id="open-questions">Open questions</h2>
+<ol>
+<li>Is there an ordinary behavior that a personal history moves at a middling rate, measured without a list of options?</li>
+<li>A learned memory now carries a world rule across new wording. Can a memory also carry "this happened to me, and to that thing"?</li>
+<li>If history effects differ from one world to the next, how much evidence per world is needed to see them?</li>
+<li>Would other models, sizes or decoding settings change the regimes seen here? Would records larger than the context?</li>
+<li>Once a history-specific influence exists, can a later experience change it while the earlier facts stay unchanged?</li>
+</ol>
+</main>
+<footer class="colophon">
+<p>Public research record · version 0.1.0 · <a href="integrity.html">integrity record</a> · <a href="changelog.html">changelog</a></p>
+<p>Copyright © 2026 Zhongxing Zhang. All rights reserved. <a href="about.html#license">Rights notice</a></p>
+<p class="motto">The Little Prince is our inspiration, not our answer key.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Release record, SHA-256 manifest and how to verify a version.">
+<meta name="author" content="Zhongxing Zhang">
+<title>Integrity Record · The Rose That Remembered Spring</title>
+<link rel="icon" href="assets/rose.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="page-integrity">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<a class="mark" href="index.html"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M24 6.5c-6.2 0-11 4.4-11 10.2 0 5.6 4.9 9.8 11 9.8s11-4.2 11-9.8C35 10.9 30.2 6.5 24 6.5z"/><path d="M24 11.2c-3.1 0-5.6 2.3-5.6 5.1s2.4 5 5.3 5c2.5 0 4.4-1.8 4.4-4 0-1.9-1.5-3.4-3.4-3.4-1.5 0-2.7 1.1-2.7 2.5 0 1 .8 1.8 1.8 1.8"/><path d="M13.6 14.6c2.6 1 4.6 3.6 5.1 6.9"/><path d="M34.4 14.6c-2.6 1-4.6 3.6-5.1 6.9"/><path d="M24 26.5c0 6.2-1 11.2-3.2 15.5"/><path d="M23.2 32.6c-3.8-1.6-8-.8-10.3 2.2 4 1.7 8.1 1 10.3-2.2z"/><path d="M22.6 37.6c3.3-2.7 7.4-3 10.1-1-2.8 2.7-7 3-10.1 1z"/><path d="M23.5 29.6l1.9-1"/></svg><span class="mark-text"><span class="mark-title">The Rose That Remembered Spring</span><span class="mark-sub" lang="zh-Hans">一朵记得春天的玫瑰</span></span></a>
+<nav aria-label="Sections">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="vision.html">Vision</a></li>
+<li><a href="timeline.html">Timeline</a></li>
+<li><a href="findings.html">Findings</a></li>
+<li><a href="integrity.html" aria-current="page">Integrity</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</header>
+<main id="main">
+<h1 id="page-title">Integrity</h1>
+<section class="about-part" id="releases">
+<h2 id="release-record">Release record</h2>
+<p>Each public version of this record, as it was actually released. How the manifest is made, and how to check it, is explained in <a href="integrity.html#verify">the integrity record</a>.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>version</th><th>prepared</th><th>released</th><th>commit</th><th>manifest digest (SHA-256)</th><th>signature</th><th>third-party timestamp</th></tr></thead>
+<tbody>
+<tr><td>0.1.0</td><td>2026-10-17</td><td>not yet released</td><td>not yet recorded</td><td><code>939a774a3642a10d…</code></td><td>none created</td><td>none obtained</td></tr>
+</tbody>
+</table></div>
+<h3 id="version-010">Version 0.1.0</h3>
+<ul>
+<li><strong>Tag:</strong> <code>v0.1.0</code></li>
+<li><strong>Content prepared:</strong> 2026-10-17</li>
+<li><strong>Released:</strong> not yet released</li>
+<li><strong>Commit:</strong> not yet recorded</li>
+<li><strong>Manifest:</strong> <code>integrity/v0.1.0/SHA256SUMS</code>, 29 files</li>
+<li><strong>Manifest digest (SHA-256):</strong> <code>939a774a3642a10db419d116906f0a5df8fc7047f1a81afa70c2c1125d53d5f6</code></li>
+<li><strong>Signature:</strong> none created</li>
+<li><strong>Third-party timestamp:</strong> none obtained</li>
+</ul>
+<div class="table-wrap"><table>
+<thead><tr><th>document</th><th>SHA-256</th></tr></thead>
+<tbody>
+<tr><td>README.md</td><td><code>f9e9790c8406dac1c96199a2f9be5ff141e75510517528aa5539308622c0f60c</code></td></tr>
+<tr><td>RESEARCH_VISION.md</td><td><code>0b47dfa4dc9ebf2374a1176a04b187aebf664052f85cb6df7bf54ed02c3b48a4</code></td></tr>
+<tr><td>RESEARCH_TIMELINE.md</td><td><code>5af84e7a5cc285219cb6f05f49e166116cbb7676137afeebc7b17f5f0ab5ad8b</code></td></tr>
+<tr><td>PRELIMINARY_FINDINGS.md</td><td><code>fbc3ab0c86dab863c4344514ce89e902d3dc1fe7f9b0aa3b5f61cece9c2f820a</code></td></tr>
+<tr><td>CHANGELOG.md</td><td><code>f45d95657316e6fd53d99662689857c53779ec4999c5b96677ecea6219979c58</code></td></tr>
+<tr><td>ATTRIBUTION.md</td><td><code>4aa15d597d82a438d17b7fa93f45202f815524394181c340b6200ce532b3ee18</code></td></tr>
+<tr><td>DISCLOSURE.md</td><td><code>1cd597aca7a7e5dbf39bd469f6ee1dae835ccdbfe23c5e6cb893d46c6b62b23a</code></td></tr>
+<tr><td>LICENSE.md</td><td><code>1114df4bacb99079b85bbebbf07b5ae8bae04e063c91dedfe8f6e3ae06ba32cb</code></td></tr>
+<tr><td>integrity/README.md</td><td><code>8c093562c83a411dcf0bcf1ee9ac623da08fa2f94bfe4aae295aca6f8ac501f6</code></td></tr>
+</tbody>
+</table></div>
+</section>
+<section class="about-part" id="verify">
+<h2 id="integrity-record">Integrity record</h2>
+<p>Every public version of this record is registered here:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>item</th><th>what it is</th></tr></thead>
+<tbody>
+<tr><td>version</td><td>the version identifier, for example <code>0.1.0</code>, with a matching git tag <code>v0.1.0</code></td></tr>
+<tr><td>prepared</td><td>the date the content of the version was prepared</td></tr>
+<tr><td>released</td><td>the date the version was actually made public</td></tr>
+<tr><td>commit</td><td>the git commit that the tag points to</td></tr>
+<tr><td>manifest</td><td>the SHA-256 hash of every public file in that version (<code>integrity/v&lt;version&gt;/SHA256SUMS</code>)</td></tr>
+<tr><td>manifest digest</td><td>the SHA-256 hash of the manifest file itself</td></tr>
+<tr><td>signature</td><td>whether the release tag was cryptographically signed</td></tr>
+<tr><td>third-party timestamp</td><td>whether an independent timestamp of the manifest was obtained, and where its proof is kept</td></tr>
+</tbody>
+</table></div>
+<p>The record is in <a href="integrity.html">RELEASES.md</a>. The same record in machine-readable form is <code>releases.json</code>.</p>
+<h3 id="what-the-manifest-covers">What the manifest covers</h3>
+<p>The manifest covers every file in the repository except the integrity record itself:</p>
+<ul>
+<li><code>integrity/RELEASES.md</code></li>
+<li><code>integrity/releases.json</code></li>
+<li><code>integrity/v*/SHA256SUMS</code></li>
+<li><code>integrity/v*/timestamp/*</code> (third-party timestamp proofs, where they exist)</li>
+<li><code>docs/integrity.html</code></li>
+</ul>
+<p>These files record the manifest, so they cannot also be part of it. This is also why the commit of a version is recorded after the version is tagged.</p>
+<h3 id="how-to-verify-a-version">How to verify a version</h3>
+<pre><code>git clone https://github.com/markzhongxingzhang/rose-that-remembered-spring.git
+cd rose-that-remembered-spring
+git checkout v0.1.0
+sha256sum -c integrity/v0.1.0/SHA256SUMS
+sha256sum integrity/v0.1.0/SHA256SUMS
+git rev-parse &quot;v0.1.0^{commit}&quot;</code></pre>
+<p>The third command checks every listed file. Compare the output of the fourth with the manifest digest in <a href="integrity.html">RELEASES.md</a>, and the output of the fifth with the commit recorded there.</p>
+<p>To check, in addition, that the version contains no files beyond those listed:</p>
+<pre><code>python3 tools/make_manifest.py --verify 0.1.0</code></pre>
+<h3 id="what-this-record-does-and-does-not-show">What this record does and does not show</h3>
+<ul>
+<li><strong>It shows</strong> that the files of a version are exactly the files listed in its manifest. Anyone can detect a later change.</li>
+<li><strong>The release date</strong> is the date the version was first made public. The hosting service's own record of the tag and the release is the independent evidence for it.</li>
+<li><strong>Git commit dates</strong> are set by whoever makes the commit. They are not independent evidence of time.</li>
+<li><strong>A third-party timestamp</strong> is independent evidence that the manifest existed at the stamped time. This record lists one only where it was actually obtained, together with its proof file.</li>
+<li><strong>It does not show</strong> who first had an idea.</li>
+</ul>
+</section>
+</main>
+<footer class="colophon">
+<p>Public research record · version 0.1.0 · <a href="integrity.html">integrity record</a> · <a href="changelog.html">changelog</a></p>
+<p>Copyright © 2026 Zhongxing Zhang. All rights reserved. <a href="about.html#license">Rights notice</a></p>
+<p class="motto">The Little Prince is our inspiration, not our answer key.</p>
+</footer>
+</body>
+</html>
